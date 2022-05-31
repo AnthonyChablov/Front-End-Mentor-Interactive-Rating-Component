@@ -12,12 +12,13 @@ mainCardBtnUI.forEach((elem,i,arr)=> elem.addEventListener('click',(e)=>{
     buttonCurrentlySelected=elem.innerText;
     let style1 = elem.style.backgroundColor= 'hsl(217, 12%, 63%)';
     let style2 = elem.style.color= '#262f38';
+
     arr.forEach((elem)=>{
         if (style1 && style2){
             style1 = elem.style.backgroundColor= '#262f38';
-            style1 = elem.style.color = 'hsl(217, 12%, 63%)'
+            style1 = elem.style.color = 'hsl(217, 12%, 63%)';
         }
-    });
+    });    
     elem.style.backgroundColor = 'hsl(25, 97%, 53%)';
     elem.style.color = '#fff';
 }));

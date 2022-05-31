@@ -15,16 +15,15 @@ img{
 
 /* Globals */
 .h1-color{color: hsl(0, 0%, 100%);}
-.h1-font{font-size: 26px; font-weight: 700;}
+.h1-font{font-size: 28px; font-weight: 700;}
 .p-color{color: hsl(217, 12%, 63%); filter: brightness(85%);}
-.p-font{font-size: 15px; font-weight: 400; line-height: 23px;}
+.p-font{font-size: 15.1px; font-weight: 400; line-height: 23px;}
 .btn-style{font-size:15px;}
 .btn-submit-style{font-size: 14px;}
 
 /* Styles */
 .container{
-    width: 83%;
-    
+    width: 84%;
     margin: 0 auto;
     max-width: 400px;
 }
@@ -40,8 +39,8 @@ img{
 }
 .main__card--star{
     background-color: #262f38;
-    width: 45px;
-    height: 45px;
+    width: 48px;
+    height: 48px;
     border-radius: 100px;
 
     display: flex;
@@ -52,11 +51,15 @@ img{
 
 .main__card--content{
     margin-top: 34px;
+    padding-bottom: 13px;
 }
 .row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.main__card--buttons{
+    padding-bottom: 18px;
 }
 .btn {
     display: inline-block;
@@ -69,24 +72,16 @@ img{
     border-radius: 100px;
     padding: 10px;
     display: flex;
-    width: 45px;
-    height: 45px;
+    width: 48px;
+    height: 48px;
     align-items: center;
     justify-content: center;
 }
-.btn-style:hover{
-    color: #fff;
-    background-color: hsl(217, 12%, 63%);
+.btn-style-hover:hover{
+    color: #fff !important;
+    background-color: hsl(217, 12%, 63%) !important;
 }
-/* 
-.btn-style:focus{
-    color: #fff;
-    background-color: hsl(25, 97%, 53%);
-} */
-/* 
-.btn-style:focus{
-    background-color: hsl(217, 12%, 63%);
-} */
+
 .main__card--submit{
     margin: 0 auto;
     margin-top: 16px;
