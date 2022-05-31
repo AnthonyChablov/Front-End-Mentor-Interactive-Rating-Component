@@ -1,0 +1,142 @@
+/* Boiler Plate */
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Overpass', sans-serif;
+    text-shadow: 1px black;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Globals */
+.h1-color{color: hsl(0, 0%, 100%);}
+.h1-font{font-size: 26px; font-weight: 700;}
+.p-color{color: hsl(217, 12%, 63%); filter: brightness(85%);}
+.p-font{font-size: 15px; font-weight: 400; line-height: 23px;}
+.btn-style{font-size:15px;}
+.btn-submit-style{font-size: 14px;}
+
+/* Styles */
+.container{
+    width: 83%;
+    
+    margin: 0 auto;
+    max-width: 400px;
+}
+.main{
+    background-color: hsl(216, 12%, 8%);
+    padding: 190px 0 500px 0;
+}
+.main__card{
+    background-color:  #1b222c;
+    padding:29px 31px 29px 31px;
+    border-radius: 30px;
+    box-shadow: 0px 0.1px 2px black;
+}
+.main__card--star{
+    background-color: #262f38;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.main__card--content{
+    margin-top: 34px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    cursor:pointer;
+}
+.btn-style{
+    color: hsl(217, 12%, 63%);
+    background-color: #262f38;
+    border-radius: 100px;
+    padding: 10px;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+}
+.btn-style:hover{
+    color: #fff;
+    background-color: hsl(217, 12%, 63%);
+}
+/* 
+.btn-style:focus{
+    color: #fff;
+    background-color: hsl(25, 97%, 53%);
+} */
+/* 
+.btn-style:focus{
+    background-color: hsl(217, 12%, 63%);
+} */
+.main__card--submit{
+    margin: 0 auto;
+    margin-top: 16px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+.main__card--submit:hover{
+    cursor: pointer;
+}
+.btn-submit{
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;   
+    color: white;
+}
+
+/* Styles for added components */
+.new-subheader-parent{
+    padding-top: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.new-subheader{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 0px 4.5px;
+    width: 60%;
+
+    color: hsl(25, 97%, 53%);
+    background-color: #262f38;
+    border-radius: 100px;
+}
+.new-main-header{
+    color: #fff;
+    font-size: 12px;
+}
+.new-paragraph{
+    color: hsl(217, 12%, 63%);
+    filter: brightness(85%);
+    padding-bottom: 10px;
+    line-height: 23px;
+}
+
+
+
+
+
+
+
